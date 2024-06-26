@@ -86,7 +86,7 @@ class Chrome():
         conn.close()
         
         try:
-            temp_db_path = Path(environ['USERPROFILE']).joinpath('Desktop\\test_kape\\A\\ShadowSevenOne\\TempLogin.db')
+            temp_db_path = "path_to_store_copied_chrome_login_db"
             remove(temp_db_path)
         except Exception:
             pass
